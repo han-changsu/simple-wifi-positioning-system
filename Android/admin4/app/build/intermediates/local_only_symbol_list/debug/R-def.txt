@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id apply_apply
+id apply_cancel
+id apply_delay
+id apply_mac_address
+id apply_position
+id apply_wifi_pass
+id apply_wifi_ssid
+id button
+id button2
+id is_runnable
+id listview
+id mac_address
+id refresh
+id wifi_delay
+id wifi_local
+id wifi_pass
+id wifi_ssid
+layout activity_apply
+layout activity_main
+layout listview_item
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Admin
+style Theme.Admin
+xml backup_rules
+xml data_extraction_rules

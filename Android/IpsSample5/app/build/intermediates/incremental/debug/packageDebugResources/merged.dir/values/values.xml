@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="blue_200">#FFCAE9FF</color>
+    <color name="blue_500">#FFAED4FF</color>
+    <color name="blue_700">#FF779FEC</color>
+    <color name="gray">#FFCCCCCC</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">IpsSample</string>
+    <string name="text1">Floor (현재 층수)</string>
+    <string name="text2">탐색 AP 수</string>
+    <string name="text3">현재 위치</string>
+    <string name="text4">WPS 측위 수행</string>
+    <string name="text5">Beacon 연동</string>
+    <style name="Theme.IpsSample" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/gray</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
